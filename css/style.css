@@ -1,10 +1,30 @@
+*{
+    
+}
+
 h1{
-    color: black;
+    color: rgb(4, 66, 148);
+    text-shadow: 
+    0 0 5px white,
+    0 0 5px white,
+    0 0 5px white;
+
 }
 h1:hover{
-    color: red;
+    /* color: green; */
+    color: rgb(0, 0, 0);
     animation: tada; 
     animation-duration: 2s;
+}
+
+h2, h3, h4{
+    /* color: rgb(187, 187, 187); */
+    color: rgb(0, 0, 0);
+    text-shadow: 
+    0 0 5px white,
+    0 0 5px white,
+    0 0 5px white;
+
 }
 
 .slick-slide {
@@ -28,7 +48,10 @@ h1:hover{
 
 body{
     /* background: linear-gradient(to left, rgb(120, 120, 120), grey); */
+    background-image: url(../images/astract.jpg);
+    background-attachment: fixed; 
 }
+
 .img{
     margin: 20px;
     margin-top: 35px;
@@ -65,4 +88,88 @@ ul li {
     0px 0px 5px white,
     0px 0px 5px white,
     0px 0px 5px white;
+}
+
+.caja{
+    box-shadow: 
+    0 0 100px white inset,
+    0 0 15px white;
+
+    border-radius: 0 15px;
+    border: 1px solid rgb(255, 255, 255);
+
+    color: black;
+
+    padding: 3px;
+}
+.caja2{
+    box-shadow: 
+    0 0 50px rgb(0, 0, 0) inset,
+    0 0 10px rgb(255, 255, 255);
+
+    border-radius: 0 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.cajallena{
+    box-shadow: 
+    0 1px white inset,
+    0 1px white;
+
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0 8px;
+
+    background-image: url(../images/humo.jpg);
+    background-position-x: center;
+/*  */
+    /* background-repeat: repeat-x; */
+    
+    
+}
+
+.info{
+    box-shadow: 0 0 30px white inset;
+    border-radius: 0 8px;
+}
+
+.nombres{
+    color: rgb(4, 66, 148);
+
+    /* box-shadow: 
+    0 0 50px black inset,
+    0 0 50px black inset,
+    0 0 50px black inset; */
+}
+
+/* .letra{
+    box-shadow: 
+    0 0 80px rgb(0, 0, 0) inset;
+    
+    text-decoration: underline;
+    
+} */
+
+.ofrecemos{
+    border-radius: 0 10px;
+    border: 1px solid white;
+
+    box-shadow: 
+    0 0 50px white inset,
+    0 0 50px white inset;
+
+    padding: 5px;
+
+}
+
+.fuera{
+    border-radius: 0 10px;
+    border: 1px solid white;
+
+    padding: 8px;
+
+    box-shadow: 
+    0 0 15px rgb(0, 66, 207) inset,
+    0 0 15px rgb(0, 66, 207);
 }
